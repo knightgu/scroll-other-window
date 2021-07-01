@@ -53,8 +53,8 @@
   (let* ((win (other-window-for-scrolling))
          (cmd (with-current-buffer (window-buffer win)
 		(if down-p
-		    (or sow-scroll-down-command #'scroll-up-command)
-		  (or sow-scroll-up-command #'scroll-down-command)))))
+		    (or sow-scroll-down-command #'scroll-down-command)
+		  (or sow-scroll-up-command #'scroll-up-command)))))
     (with-current-buffer (window-buffer win)
       (save-excursion
         (goto-char (window-point win))
