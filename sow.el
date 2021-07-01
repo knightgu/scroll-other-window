@@ -83,5 +83,5 @@
                   sow-scroll-down-command
                   'pdf-view-scroll-down-or-previous-page)))
 
-(provide 'scroll-other-window)
-;;; scroll-other-window.el ends here
+(provide 'sow-mode)
+;;; sow.el ends here
