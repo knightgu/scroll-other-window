@@ -1,4 +1,4 @@
-;;; sow.el --- Variable commands for scrolling the other window.
+;;; sow-mode.el --- Variable commands for scrolling the other window.
 
 ;; Copyright (C) 2016  Andreas Politz
 
@@ -84,4 +84,4 @@
                   'pdf-view-scroll-down-or-previous-page)))
 
 (provide 'sow-mode)
-;;; sow.el ends here
+;;; sow-mode.el ends here
